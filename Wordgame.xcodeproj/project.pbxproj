@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E9767514246787B800C4125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9767513246787B800C4125B /* AppDelegate.swift */; };
 		E9767516246787B800C4125B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9767515246787B800C4125B /* SceneDelegate.swift */; };
-		E9767518246787B800C4125B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9767517246787B800C4125B /* ViewController.swift */; };
+		E9767518246787B800C4125B /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9767517246787B800C4125B /* BasicViewController.swift */; };
 		E976751B246787B800C4125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9767519246787B800C4125B /* Main.storyboard */; };
 		E976751E246787B800C4125B /* Wordgame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E976751C246787B800C4125B /* Wordgame.xcdatamodeld */; };
 		E9767520246787BB00C4125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976751F246787BB00C4125B /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		E9767510246787B800C4125B /* Wordgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9767513246787B800C4125B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9767515246787B800C4125B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9767517246787B800C4125B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9767517246787B800C4125B /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		E976751A246787B800C4125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E976751D246787B800C4125B /* Wordgame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wordgame.xcdatamodel; sourceTree = "<group>"; };
 		E976751F246787BB00C4125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				E9767513246787B800C4125B /* AppDelegate.swift */,
 				E9767515246787B800C4125B /* SceneDelegate.swift */,
-				E9767517246787B800C4125B /* ViewController.swift */,
+				E9767517246787B800C4125B /* BasicViewController.swift */,
 				E9767519246787B800C4125B /* Main.storyboard */,
 				E976751F246787BB00C4125B /* Assets.xcassets */,
 				E9767521246787BB00C4125B /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9767518246787B800C4125B /* ViewController.swift in Sources */,
+				E9767518246787B800C4125B /* BasicViewController.swift in Sources */,
 				E9767514246787B800C4125B /* AppDelegate.swift in Sources */,
 				E9767516246787B800C4125B /* SceneDelegate.swift in Sources */,
 				E976751E246787B800C4125B /* Wordgame.xcdatamodeld in Sources */,
